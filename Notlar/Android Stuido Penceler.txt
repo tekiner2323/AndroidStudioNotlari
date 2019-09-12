@@ -1,0 +1,3 @@
+Eðer bir pencereyi kapattýktan sonra tekrar açmak istiyorsan
+
+View -> Wool Windows -> Burada aradaðýný seç ve aç 

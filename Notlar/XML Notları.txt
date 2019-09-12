@@ -1,0 +1,63 @@
+	1. Satýrda otomatik olarak gelen xml versiyonunu ve derlemesini belirten kod olmak zorundadýr. 
+
+		<?xml version="1.0" encoding="utf-8"?>
+
+	2. < Bir þema þekli seçmek zorundasýn. Bu GridLayout, LinearLayout,.... gibi
+
+
+
+	3. Hemen ardýndan bu seçimin kaynaðýnýn android olduðunu göstereceksin. 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+	4)Sonrasýnda hemen ekranýn nasýl göstereceðini seçimini yapacaksýn
+
+
+	orientation:yönlendirme seçimi
+	burada 2 seçimin var 1) vertical 2)Horizontal
+	   
+		android:orientation="vertical"
+
+
+	4) Bu madde ekrana koyulacak her bileþen için geçerlidir. Bileþenin ekranda ne kadar alan kaplayacaðýný yazman gerekir
+    		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+	
+	macth: maç(futbol maçý) Kibrit rakip olacak anlamlarý olsada birleþtirmek gibi bir fiil anlamý vardýr. 
+
+	parent: Evebeyn anlamýna gelir.
+	
+	match_parent: derken bir üst bileþenin tüm kýsmýný kullan içini doldur anlamýna kullanabiliriz. 
+
+	wrap_content: Ýçeriðindeki yazý - görsel kadar yeterli bir alana sahip ol. 
+
+	5) Bu aþamada kodlar aþaðýdaki gibi olmalýdýr.
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android    ="http://schemas.android.com/apk/res/android"
+    		android:orientation="vertical"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent">
+	</LinearLayout>
+
+	Burada dikkat edilmesi gereken þey þudur LinearLayout'un özellikleri belirtildikten sonra > iþaret ile özellikleri kapatýlmýþtýr sonrasýnda ise linearLayout'un parent olduðu alan kapatýlmýþtýr. Bu aþamadan sonra bileþenleri bu alana yazmamýz gerekecektir. 
+
+
+
+BÝTMEDÝ EKLENECEK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
