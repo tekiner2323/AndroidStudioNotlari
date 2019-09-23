@@ -1,8 +1,22 @@
 Android Studioda githup baðlamak oldukça basit.
 
+
+1) Bunun için öncesinde sadece 'git' bilgisayara kurulmalýdýr. Windows bilgisayar kullandýðým için git_64.exe'yi kurdum.
+
+Eðer Android Studio git.exe'yi göremezse
+
+Menü Barýndan File --> Setting açýlýr
+Açýlan menüden Version Control aþaðý doðru geniþletilir. ve path to Git executable yazan yerden git.exe nin yeri bulunur ve seçilir. Test'e týklanarak doðru olup olmadýðý test edilir.
+
+
 Projeyi açtýktan sonra menü barýndan VCS'ye týklayarak menüyü açarýz.
 
-Ýmport Ýnto Version Control'ün üzerine geliriz açýlýr pencereden Share Project on GitHup'a basýlýr
+Bu adýmlarý okuyunca insanýn aklýnda iki soru belirir. GitHup kullanýyorum neden git kuruyorum diye.
+
+GitHup temelinde git kullanarak size bir platform saðlarken git size sadece sürümlerinizi kontrol eder. Android Studio ise git çekirdeðini kullanarak sizin projede yaptýðýnýz deðiþiklileri inceler ve bunu GitHup platformunuzda hýzlýca paylaþmanýza olanak tanýr. 
+
+
+2) Ýmport Ýnto Version Control'ün üzerine geliriz açýlýr pencereden Share Project on GitHup'a basýlýr
 		
 	Eðer Daha önce hiç giriþ yapmamýþsak bizden gitHup giriþ bilgileri ister. Oturum Açar
 
