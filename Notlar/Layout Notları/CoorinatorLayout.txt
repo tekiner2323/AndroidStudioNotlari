@@ -1,0 +1,21 @@
+Bu Layout biçimi android layout support diye geçiyor. Bunu kullanabilmek için öncelikle 
+
+Proje görünümünü android görünümüne getirip orada var olan Grandle Scripts sekmesi altýnda bulunan build.grandle(Module:app) yazan dosyayý açýp 
+
+dependencies{
+..
+..
+compile 'com.android.support:design:29.0.2'
+
+..
+..
+}
+
+ekliyoruz. Ekranýn sað üzerinde sync now yazýsý çýkacak ona basarak senkronize ettikten sonra layout xml kýsmýna gelip VoordinatorLayout'u kullanabiliriz
+
+
+Grandle klasörü ve bileþenlerinin henüz tam olarak ne iþe yaradýðýný bilmiyorum
+
+
+
+10.10.2019

@@ -1,0 +1,4 @@
+Komik bir þekilde actionBar'lý seçim yapmama raðman uygulama tasarým kýsýmýnda görünmüyordu. Çýlgýnlar gibi onu aradým. Sonuç olarak görüntüleme kýsmýnda bir göz iþareti var oraya basarak render kýsmýnda nelerin gözükeceðini seçebileceðin bir menü açýlýyor. Onlara basadarak ayarlamalar yapabilirsin.
+
+
+Çok salakça ama var.
