@@ -6,6 +6,7 @@ dependencies{
 ..
 ..
 compile 'com.android.support:design:29.0.2'
+//Kaynnaklarda compile diye eklememizi istiyor. Lakin bu þekilde yaparsak hata alabilriz. Bulduðum düzenleme önerisi ise "compile" yerine "implementation" yazmak//
 
 ..
 ..
